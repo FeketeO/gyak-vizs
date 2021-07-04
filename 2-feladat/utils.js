@@ -13,7 +13,7 @@ const getList = async () => {
     return JSON.parse(content)
 }
 const get = async (id = 0) => {
-    list = await getList()
+   const list = await getList()
     return list.find( item => item.id === id)
 }
 

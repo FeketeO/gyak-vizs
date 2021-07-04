@@ -1,7 +1,9 @@
 const carController = require('../controller/carController');
 
 const router =  {
-    'get': (id = 0) => !id
-    ? await carController.getAll
-    : await carController.get(id)
-}
+    'get': async  (res) => res.end(JSON.stringify( await carController.getAll() )),
+};
+
+module.exports = Object.freeze({
+    router
+})

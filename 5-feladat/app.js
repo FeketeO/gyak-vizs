@@ -1,17 +1,16 @@
 const http = require('http');
-const { getAll } = require('./utils')
+const { router } = require('./router/carRouter');
+const rouer = require('./router/carRouter')
 
 const port = 8080;
 
 const server = http.createServer( async (req, res) => {
-  switch(req.method.toLowerCase()){
-      case 'get': 
-  }
- const list = await getAll()
-res.setHeader('Content-type', 'application=json');
-// a fjlécbe beállítjuk,hogy json adatokat küldünk
-res.end(JSON.stringify(list));
+  router[req.method.toLowerCase()](res);
+// req.method-so rész: get, POST, PATC, DELETE kis betűssé alakítom, mert a routerben kis betűvel írtam be őket, és a rooter objeckutomból azt a függvényt hívom meg,aminek a neve megegyezik a http metódussal
+
 });
+ 
+  
 server.listen(port, () => {
   console.log(`Server is running at http://127.0.0.1:${port}`);
 })

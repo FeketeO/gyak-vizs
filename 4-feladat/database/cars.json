@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "model": "Protege",
+        "maker": "Mazda",
+        "year": 2003,
+        "color": "Mauv",
+        "price": 216674
+    },
+    {
+        "id": 2,
+        "model": "Discovery",
+        "maker": "Land Rover",
+        "year": 1997,
+        "color": "Red",
+        "price": 110518
+    },
+    {
+        "id": 3,
+        "model": "Horizon",
+        "maker": "Plymouth",
+        "year": 1978,
+        "color": "Pink",
+        "price": 94457
+    },
+    {
+        "id": 4,
+        "model": "CRV",
+        "maker": "Honda",
+        "year": 2010,
+        "color": "Pink",
+        "price": 413867
+    },
+    {
+        "id": 5,
+        "model": "Savannah",
+        "maker": "Morgan",
+        "year": 2008,
+        "color": "Purple",
+        "price": 15000
+    },
+    {
+        "id": 6,
+        "model": "Caravan",
+        "maker": "Dodge",
+        "year": 2007,
+        "color": "Turquoise",
+        "price": 242435
+    },
+    {
+        "id": 7,
+        "model": "LS",
+        "maker": "Lincoln",
+        "year": 2002,
+        "color": "Maroon",
+        "price": 293489
+    },
+    {
+        "id": 8,
+        "model": "Elise",
+        "maker": "Lotus",
+        "year": 2006,
+        "color": "Indigo",
+        "price": 46033
+    },
+    {
+        "id": 9,
+        "model": "Mazda3",
+        "maker": "Mazda",
+        "year": 2005,
+        "color": "Goldenrod",
+        "price": 198101
+    },
+    {
+        "id": 10,
+        "model": "Grand Marquis",
+        "maker": "Mercury",
+        "year": 1999,
+        "color": "Puce",
+        "price": 65675
+    },
+    {
+        "id": 11,
+        "model": "Suburban 2500",
+        "maker": "Chevrolet",
+        "year": 2012,
+        "color": "Goldenrod",
+        "price": 298743
+    },
+    {
+        "id": 12,
+        "model": "Exige",
+        "maker": "Lotus",
+        "year": 2005,
+        "color": "Aquamarine",
+        "price": 395023
+    },
+    {
+        "id": 13,
+        "model": "Prowler",
+        "maker": "Plymouth",
+        "year": 1999,
+        "color": "Mauv",
+        "price": 350167
+    },
+    {
+        "id": 14,
+        "model": "Camaro",
+        "maker": "Chevrolet",
+        "year": 1994,
+        "color": "Violet",
+        "price": 427212
+    },
+    {
+        "id": 15,
+        "model": "Tempest",
+        "maker": "Pontiac",
+        "year": 1966,
+        "color": "Purple",
+        "price": 357535
+    },
+    {
+        "id": 16,
+        "model": "SLK-Class",
+        "maker": "Mercedes-Benz",
+        "year": 2008,
+        "color": "Puce",
+        "price": 312176
+    },
+    {
+        "id": 17,
+        "model": "E150",
+        "maker": "Ford",
+        "year": 2003,
+        "color": "Goldenrod",
+        "price": 103176
+    },
+    {
+        "id": 18,
+        "model": "Impreza",
+        "maker": "Subaru",
+        "year": 2002,
+        "color": "Khaki",
+        "price": 491558
+    },
+    {
+        "id": 19,
+        "model": "Armada",
+        "maker": "Nissan",
+        "year": 2011,
+        "color": "Mauv",
+        "price": 80714
+    },
+    {
+        "id": 20,
+        "model": "Silverado 3500",
+        "maker": "Chevrolet",
+        "year": 2005,
+        "color": "Teal",
+        "price": 495132
+    },
+    {
+        "id": 21,
+        "model": "Astro",
+        "maker": "Chevrolet",
+        "year": 2005,
+        "color": "Purple",
+        "price": 366707
+    },
+    {
+        "id": 22,
+        "model": "Passport",
+        "maker": "Honda",
+        "year": 1998,
+        "color": "Pink",
+        "price": 103830
+    }
+]
