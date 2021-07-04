@@ -33,11 +33,11 @@
     },
     {
         "id": 5,
-        "model": "Aero 8",
+        "model": "Savannah",
         "maker": "Morgan",
         "year": 2008,
-        "color": "Teal",
-        "price": 30150
+        "color": "Purple",
+        "price": 15000
     },
     {
         "id": 6,
