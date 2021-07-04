@@ -20,5 +20,4 @@ const get = async (id = 0) => {
 
 module.exports = Object.freeze({
     get
-    
 })
