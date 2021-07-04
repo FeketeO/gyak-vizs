@@ -9,7 +9,7 @@ const jsonPath = join(__dirname, 'database', 'cars.json')
 // a file beolvasására is írunk egy függvényt:
 const getList = async () => {
      const content = await fsp.readFile(jsonPath, 'utf-8') 
-    //  --> ez lesz a "nyers" string a file-ból, majd az értelmezett tartalommal térek vissza a parse(): értelmezi a stringet, és a tömböt adja vissza: azt a tömböt, ami a  json file-ban található, tehát nem mint string ugyebár , hanem rendesen tömb --> objekutm, változó, stb
+    //  --> ez lesz a "nyers" string a file-ból, majd az értelmezett tartalommal térek vissza a parse(): értelmezi a stringet, és a tömböt adja vissza: azt a tömböt, ami a  json file-ban található, tehát nem mint string ugyebár , hanem rendesen tömb --> objekutm, változó, stb. a get()-nél a find)()-t használom: szövegnek nincs find metódusa, csak tömbnek, ezért kell a tömb
     return JSON.parse(content)
 }
 const get = async (id = 0) => {
